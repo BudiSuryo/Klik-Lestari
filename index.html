@@ -124,7 +124,16 @@
 <p>Untuk informasi lebih lanjut, silakan hubungi kontak resmi kantor pusat kami.</p>
 </div>
 <div class="container">
-<a id="tombol-bawah" class="button" href="https://linktr.ee/BPR.Kreo.Lestari.forms" target="_blank">Setuju dan Masuk ke KlikLestari</a>
+<a id="tombol-bawah" class="button" href="#" onclick="goLinktree()">Setuju dan Masuk ke KlikLestari</a>
+
+<script>
+function goLinktree() {
+  if (confirm("Apakah Anda sudah membaca disclaimer?")) {
+    window.open("https://linktr.ee/BPR.Kreo.Lestari.forms", "_blank");
+  }
+}
+</script>
+
 </div>
           <footer>
     &copy; 2025 BPR Kreo Lestari. All rights reserved.
